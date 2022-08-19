@@ -2638,6 +2638,10 @@ input, select, textarea {
 		max-width: 100%;
 	}
 
+	.row.aln-center img {
+		max-width: 100%;
+	}
+
 	.txt-left {
 		text-align: left;
 	}
