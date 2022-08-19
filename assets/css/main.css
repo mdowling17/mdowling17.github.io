@@ -2638,7 +2638,11 @@ input, select, textarea {
 		max-width: 100%;
 	}
 
-	.row.aln-center img {
+	/* .row.aln-center img {
+		max-width: 100%;
+	} */
+
+	img  {
 		max-width: 100%;
 	}
 
