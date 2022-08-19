@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Matt Dowling</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="/images/favicon_io/site.webmanifest">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/favicon_io/android-chrome-192x192.png" alt="" /></span>
+							<h1 id="title">Matt Dowling</h1>
+							<p>Programmer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="index.html#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="index.html#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								
+							</header>
+
+							<footer>
+								<a href="index.html#portfolio" class="button scrolly">Back to portfolio</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio Item -->
+					<section id="portfolio" class="two">
+						<div class="container txt-left">
+
+							<header class="txt-center">
+								<h2>Gitlet</h2>
+                                <h3>A Git clone made with Java</h3>
+							</header>
+                            <hr>
+							<p>I created a version-control system to emulate the functionality of Git using Java. This project is from CS61B Spring 2021 (Berkeley's datastructures and algorithms course).</p>
+							<p>In brief, the purpose of a version-control system is to enable backup and restoration of your project files. A system like Git can also handle branching and merging of different versions of your project which is especially useful for testing new features before making changes to the main branch.<br>For this project, we store all the information about the file history, or the commit tree, in the file system. Files are identified using the same cryptographic hash function as Git, called SHA-1.<br>
+								The details of the spec can be found on <a href="https://sp21.datastructur.es/materials/proj/proj2/proj2#overview-of-gitlet">the Spring 2021 CS61B course website</a>
+								</p>
+								The commands I implemented are:
+							<ul>
+								<li><span style="font-weight: bold">init:</span> initialize a new repository</li>
+								<li><span style="font-weight: bold">add:</span> stage files for addition</li>
+								<li><span style="font-weight: bold">commit:</span> create a new commit</li>
+								<li><span style="font-weight: bold">rm:</span> stage a file for removal</li>
+								<li><span style="font-weight: bold">log:</span> print the commit history for the current branch backwards</li>
+								<li><span style="font-weight: bold">global-log:</span> print all commits ever made </li>
+								<li><span style="font-weight: bold">find:</span> prints SHA-1 id's of commits with a given commit message</li>
+								<li><span style="font-weight: bold">status:</span> displays current branch, files staged for addition and removal, unstaged modifications, and untracked files</li>
+								<li><span style="font-weight: bold">checkout:</span> checkout old versions of files or entire commits</li>
+								<li><span style="font-weight: bold">branch:</span> creates a new branch</li>
+								<li><span style="font-weight: bold">rm-branch:</span> removes the pointer to a branch</li>
+								<li><span style="font-weight: bold">reset:</span> checks out all the files in the given commit and moves the current branch head</li>
+								<li><span style="font-weight: bold">merge:</span> merges files from given branch into current branch</li>
+								<li><span style="font-weight: bold">add-remote:</span> creates a new file directory to push and pull from</li>
+								<li><span style="font-weight: bold">rm-remote:</span> removes a remote directory</li>
+								<li><span style="font-weight: bold">push:</span> append the current branches commits to the end of the given branch</li>
+								<li><span style="font-weight: bold">fetch:</span> brings down commits from a remote repository into the current one</li>
+								<li><span style="font-weight: bold">pull:</span> acts like fetch and merge together</li>
+							</ul>
+
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<!-- <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
